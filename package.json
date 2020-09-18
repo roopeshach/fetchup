@@ -1,0 +1,24 @@
+{
+  "name": "fetchup",
+  "version": "1.0.0",
+  "description": "Upload files to server using fetch API in js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roopeshach/fetchup.git"
+  },
+  "keywords": [
+    "fetch",
+    "file",
+    "upload"
+  ],
+  "author": "Roopesh Acharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roopeshach/fetchup/issues"
+  },
+  "homepage": "https://github.com/roopeshach/fetchup#readme"
+}
