@@ -1,0 +1,21 @@
+ <body>
+        <form id="myForm" >
+            <div>
+              <label>Select file to upload</label>
+              <input type="file"  id="fetchup">
+            </div>
+            <button  type="submit">Upload</button>
+          </form>
+          <script src="index.js"></script>
+   <script>
+          fetchUp({
+            url : "upload.php",
+            max_size: 2,
+            headers: {
+            'content-type': 'multipart/form-data'
+             },
+
+          })
+    </script>
+    </body>
+
